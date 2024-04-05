@@ -1,9 +1,6 @@
 # grupo-pds
-Grupo de pds ufmg
 
-## Atividade Inaugural
-
-- Crie um Pull Request para incluir um um arquivo `{nome}.md` na pasta `hello_world` com sua mensagem de boas vindas.
+Grupo de pds ufmg.
 
 ## Ajuda
 
