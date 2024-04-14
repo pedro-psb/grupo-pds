@@ -74,11 +74,17 @@ int arvoreBuscar(Arvore *arvore, int valor) {
 }
 
 /* Apagar árvore */
-void arvore_apagar(Arvore* arvore, int x){
-  No *anterior;
+void arvoreApagar(Arvore* arvore, int x){
+  
+
 }
 
 /* Imprimir árvore */
-void arvore_imprimir(Arvore* arvore){
-  //
-}
+void arvoreImprimir(Arvore* arvore){
+  if(arvore->raiz){
+
+      arvore->raiz->esq;
+      printf("%d", arvore->raiz->valor);
+      arvore->raiz->dir;
+
+  }}

@@ -12,7 +12,7 @@ void arvoreInsere(Arvore *arvore, int valor);
 int arvoreBuscar(Arvore *arvore, int valor);
 
 /* Apaga árvore */
-void arvore_apagar(Arvore* arvore, int x);
+void arvoreApagar(Arvore* arvore, int x);
 
 /* Imprimi árvore*/
-void arvore_imprimir(Arvore* arvore);
+void arvoreImprimir(Arvore* arvore);
