@@ -103,18 +103,18 @@ void arvoreApagar(Arvore *arvore, int x)
 {
 }
 
-void arvore_imprimir_no(No *no)
+void arvoreImprimirNo(No *no)
 {
   if (no != NULL)
   {
     printf("%i ", no->valor);
-    arvore_imprimir_no(no->esq);
-    arvore_imprimir_no(no->dir);
+    arvoreImprimirNo(no->esq);
+    arvoreImprimirNo(no->dir);
   }
 }
 
 /* Imprimir árvore */
 void arvoreImprimir(Arvore *arvore)
 {
-  arvore_imprimir_no(arvore->raiz);
+  arvoreImprimirNo(arvore->raiz);
 }
